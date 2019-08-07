@@ -31,37 +31,4 @@ $(document).ready(function(){
 });
 
 
-// var response = null;
-// var index = null;
-// window.onload = init;
-
-// function init() {
-//     loadJSON(function(res) {
-//         response = res;
-//         users_output.innerHTML = build(res, user_temp);
-//     }, 'GET', 'https://api.myjson.com/bins/a2zjh');
-
-
-// }
-
-// function loadJSON(callback, method, url) {
-//     var xHR = new XMLHttpRequest;
-//     xHR.onreadystatechange = function() {
-//         if (this.readyState == 4 && this.status == 200) {
-//             // var $this = this;
-//             callback(JSON.parse(this.response));
-//         }
-//     }
-//     xHR.open(method, url, true);
-//     xHR.send();
-// }
-
-
-
-// function update($this) {
-//     index = $this.getAttribute('m');
-//     loadJSON(function(res) {
-//         comments_output.innerHTML = build(res, comments_temp);
-//     }, 'GET', 'https://jsonplaceholder.typicode.com/posts?userId=' + response[index].id);
-
-// }
+// End
